@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Azonix";
+  src: url(./assets/font/Azonix.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+
+@import './basics/variables';
+@import './basics/reset';
+
+@import './abstracts/effects';
+
+@import './components/header';
+@import './components/card';
+@import './components/footer';
