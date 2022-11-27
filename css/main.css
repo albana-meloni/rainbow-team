@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 @font-face {
   font-family: "Azonix";
-  src: url(./assets/font/Azonix.otf); }
+  src: local("Azonix"), url("../assets/font/Azonix.otf") format("opentype"); }
 
 *,
 *::before,
@@ -93,6 +93,7 @@ header {
   z-index: 1; }
   header img {
     width: 450px;
+    height: 100%;
     margin: auto; }
   header h1 {
     width: fit-content;
@@ -158,12 +159,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .card > .card-content h3 {
+    .card > .card-content h2 {
       font-family: "Azonix";
       font-size: 1.5rem;
       font-weight: 100;
       padding: auto; }
-      .card > .card-content h3.torneos, .card > .card-content h3.rooster, .card > .card-content h3.nosotros {
+      .card > .card-content h2.torneos, .card > .card-content h2.rooster, .card > .card-content h2.nosotros {
         transition: all 0.6s; }
     .card > .card-content img {
       opacity: 0;
@@ -195,7 +196,7 @@ footer {
   margin: auto;
   text-align: center; }
   footer small {
-    color: rgba(245, 245, 245, 0.2);
+    color: rgba(245, 245, 245, 0.5);
     font-size: 0.8rem; }
     footer small a {
       color: inherit; }
